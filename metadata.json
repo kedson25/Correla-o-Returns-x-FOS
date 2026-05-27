@@ -1,0 +1,6 @@
+{
+  "name": "Correlação Returns x FOS",
+  "description": "Ferramenta de cruzamento e correlação inteligente entre inventário de devoluções (IDs 1.0) e a base FOS (IDs 2.0).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

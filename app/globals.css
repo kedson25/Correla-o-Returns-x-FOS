@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #0e0e0f;
+  --color-brand-surface: #1a1a1c;
+  --color-brand-surface2: #242426;
+  --color-brand-border: #2e2e32;
+  --color-brand-accent: #00e5a0;
+  --color-brand-accent-dim: rgba(0, 229, 160, 0.1);
+  --color-brand-accent-border: rgba(0, 229, 160, 0.35);
+  --color-brand-text: #f0f0f0;
+  --color-brand-muted: #777777;
+  --color-brand-danger: #ff5f5f;
+  
+  --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-mono), monospace;
+}
+
+/* Custom Scrollbars for modern tech look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0e0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e2e32;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00e5a0;
+}
+
+/* Selection Highlight */
+::selection {
+  background: rgba(0, 229, 160, 0.25);
+  color: #00e5a0;
+}
